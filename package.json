@@ -1,0 +1,59 @@
+{
+  "name": "rails-routes-navigator",
+  "displayName": "Rails Routes Navigator",
+  "publisher": "MatteoLaCognata",
+  "description": "Rails routes navigator: display and search your Rails routes.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "author": {
+    "name": "Matteo La Cognata"
+  },
+  "contributors": [
+    {
+      "name": "makicamel"
+    }
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onWebviewPanel:railsRoutesNavigator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteolc/rails-routes-navigator"
+  },
+  "icon": "images/icon.png",
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "rails-routes-navigator.search",
+        "title": "Rails Routes Navigator: Search Routes"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.78.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.4",
+    "@vscode/test-electron": "^2.3.0"
+  }
+}

@@ -1,0 +1,81 @@
+body.vscode-light td.verb {
+  color: #323232;
+  border-radius: 5px;
+  text-align: center;
+}
+body.vscode-light td.get {
+  background-color: #b1ded2;
+}
+body.vscode-light td.post {
+  background-color: #80dbd7;
+}
+body.vscode-light td.put {
+  background-color: #ffeabc;
+}
+body.vscode-light td.delete {
+  background-color: #fea6b3;
+}
+body.vscode-light tbody tr:hover {
+  cursor: pointer;
+  background-color: #e8e8e8;
+}
+
+body.vscode-dark td.verb {
+  color: #323232;
+  border-radius: 5px;
+  text-align: center;
+}
+body.vscode-dark td.get {
+  background-color: #00a425;
+}
+body.vscode-dark td.post {
+  background-color: #0075ed;
+}
+body.vscode-dark td.put {
+  background-color: #fdc639;
+}
+body.vscode-dark td.delete {
+  background-color: #ff4121;
+}
+body.vscode-dark tbody tr:hover {
+  cursor: pointer;
+  background-color: #454545;
+}
+
+body.vscode-high-contrast {
+  color: red;
+}
+
+thead td {
+  font-weight: bold;
+}
+
+td {
+  padding: 2px 4px;
+}
+
+#inputPanel {
+  display: flex;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+#refreshButton {
+  display: block;
+  background-color: #1e1e1e;
+  border: 0;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-right: 4px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#search {
+  display: block;
+  width: 400px;
+  padding: 8px 12px;
+  border: solid 1px;
+  border-radius: 12px;
+}
