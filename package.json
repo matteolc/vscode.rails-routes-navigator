@@ -21,9 +21,12 @@
   "activationEvents": [
     "onWebviewPanel:railsRoutesNavigator"
   ],
+  "bugs": {
+    "url": "https://github.com/matteolc/vscode.rails-routes-navigator/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matteolc/rails-routes-navigator"
+    "url": "https://github.com/matteolc/vscode.rails-routes-navigator"
   },
   "icon": "images/icon.png",
   "main": "./out/extension.js",
